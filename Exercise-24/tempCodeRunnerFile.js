@@ -1,0 +1,1 @@
+console.log(`The squeredArea is ${calculateArea(4)}`);
