@@ -1,9 +1,11 @@
 //  Promises in js Exercise........!
 
-function fetchData(){
+const fetchData = () => {
+
     return new Promise((resolve,reject)=>{
+
         setTimeout(()=>{
-            const successMessage = false;
+            const successMessage = true;
 
             if(successMessage){
                 resolve([{id:101,name:"Zacky",age:23, country:'Somalia', city:'Muqdisho'},{id:102,name:"Bella",age:20, country:'kenya', town:'Bangali'}]);
@@ -14,6 +16,7 @@ function fetchData(){
         },2000);
     });
 }
+
 
 fetchData().then((info)=>{
     console.log(`Success Message:`,info);
