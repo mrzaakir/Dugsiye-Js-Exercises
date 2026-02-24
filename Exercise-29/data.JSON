@@ -1,0 +1,50 @@
+{
+    "id": 101,
+    "name": "zack",
+    "age":23,
+    "city":"Muqdisho",
+    "requests": [
+        {
+            "id": 1,
+            "title": "Request 1",
+            "description": "This is the first request."
+        },
+        {
+            "id": 2,
+            "title": "Request 2",
+            "description": "This is the second request."
+        }
+    ],
+
+    "skils":[
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "JavaScript"
+    ],
+
+
+    "badeeco":[
+        {
+            "id": 1,
+            "name": "Laptop",
+            "price": 1000
+        },
+        {
+            "id": 2,
+            "name": "Smartphone",
+            "price": 500
+        },
+        {
+            "id": 3,
+            "name": "Headphones",
+            "price": 150
+        }
+    ],
+
+
+    
+    "description": "Waa Data.JSON file an u isticmalay exercise-ka."
+
+
+}
